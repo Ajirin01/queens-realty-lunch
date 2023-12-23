@@ -25,6 +25,20 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <style>
+    .property-image {
+        width: 290px;
+        height: 290px;
+        object-fit: cover; /* This ensures the image retains its aspect ratio and covers the entire container */
+    }
+
+    .property-list-image {
+        width: 100%;
+        /* height: 290px; */
+        height: 60vh;
+        object-fit: cover; /* This ensures the image retains its aspect ratio and covers the entire container */
+    }
+  </style>
 </head>
 
 <body>
