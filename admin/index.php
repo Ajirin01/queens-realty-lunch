@@ -1,8 +1,26 @@
+<?php
+    session_start();
+    // Check if the user is logged in
+    if (isset($_SESSION['user_id'])) {
+        // User is logged in, show admin content
+        // Add your admin-specific content or include admin-related files here
+        // echo "Welcome, Admin!"; // Replace this with your admin content
+    } else {
+        // User is not logged in, redirect to login page or show login form
+        header("Location: login.php");
+        exit();
+    }
+
+    if(isset($_GET['logout'])){
+        session_destroy();
+        header("Location: login.php");
+    }
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>AdminLTE | Dashboard</title>
+        <title>Admin | Dashboard</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -33,7 +51,7 @@
     <body class="skin-black">
         <!-- header logo: style can be found in header.less -->
         <header class="header">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <!-- Add the class icon to your logo image or logo icon to add the margining -->
                 TheQueensRealty
             </a>
@@ -52,23 +70,23 @@
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="glyphicon glyphicon-user"></i>
-                                <span>Jane Doe <i class="caret"></i></span>
+                                <span><?= $_SESSION['email']; ?> <i class="caret"></i></span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
-                                <li class="user-header bg-light-blue">
+                                <!-- <li class="user-header bg-light-blue">
                                     <img src="img/avatar3.png" class="img-circle" alt="User Image" />
                                     <p>
-                                        Jane Doe - Web Developer
+                                        Admin
                                     </p>
-                                </li>
+                                </li> -->
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
                                     <!-- <div class="pull-left">
                                         <a href="#" class="btn btn-default btn-flat">Profile</a>
                                     </div> -->
                                     <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                        <a href="?logout" class="btn btn-default btn-flat">Sign out</a>
                                     </div>
                                 </li>
                             </ul>
@@ -85,10 +103,10 @@
                     <!-- Sidebar user panel -->
                     <div class="user-panel">
                         <div class="pull-left image">
-                            <img src="img/avatar3.png" class="img-circle" alt="User Image" />
+                            <!-- <img src="img/avatar3.png" class="img-circle" alt="User Image" /> -->
                         </div>
                         <div class="pull-left info">
-                            <p>Hello, Jane</p>
+                            <p><?= $_SESSION['email']; ?></p>
 
                             <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                         </div>

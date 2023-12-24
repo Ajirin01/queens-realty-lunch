@@ -2,7 +2,7 @@
 <html class="bg-black">
     <head>
         <meta charset="UTF-8">
-        <title>AdminLTE | Log in</title>
+        <title>Admin| Log in</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -19,20 +19,22 @@
         <![endif]-->
     </head>
     <body class="bg-black">
-
         <div class="form-box" id="login-box">
             <div class="header">Sign In</div>
-            <form action="index.html" method="post">
+            <form action="" method="post">
                 <div class="body bg-gray">
+                    <?php include_once('controllers/auth/login.php'); ?>
                     <div class="form-group">
-                        <input type="text" name="userid" class="form-control" placeholder="User ID"/>
+                        <input type="email" name="email" class="form-control" placeholder="Email" required/>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="password" class="form-control" placeholder="Password"/>
+                        <input type="password" name="password" class="form-control" placeholder="Password" required/>
                     </div>   
+                    <input type="hidden" name="login" value="true">
                 </div>
                 <div class="footer">                                                               
-                    <button type="submit" class="btn bg-olive btn-block">Sign me in</button>  
+                    <button type="submit" class="btn bg-olive btn-block">Sign me in</button> 
+                    <a href="register.php">Register</a>
                 </div>
             </form>
         </div>

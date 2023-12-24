@@ -40,6 +40,20 @@
 
                 <div class="box-body">
                     <div class="form-group">
+                        <label for="title">Location:</label>
+                        <input type="text" name="location" class="form-control">
+                    </div>
+                </div><!-- /.box-body -->
+
+                <div class="box-body">
+                    <div class="form-group">
+                        <label for="title">Amenities: Please list the amenites and separate them with commas</label>
+                        <input type="text" name="amenities" class="form-control">
+                    </div>
+                </div><!-- /.box-body -->
+
+                <div class="box-body">
+                    <div class="form-group">
                         <label for="price">Size:</label>
                         <input type="text" name="size" class="form-control" required>
                     </div>
@@ -86,6 +100,16 @@
 
                             $conn->close();
                             ?>
+                        </select>
+                    </div>
+                </div><!-- /.box-body -->
+
+                <div class="box-body">
+                    <div class="form-group">
+                        <label for="category">Status:</label>
+                        <select name="status" class="form-control">
+                            <option value="sale">sale</option>
+                            <option value="sold">sold</option>
                         </select>
                     </div>
                 </div><!-- /.box-body -->
