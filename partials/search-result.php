@@ -1,5 +1,5 @@
 <?php
-    include_once('controllers/properties_pagination.php');
+    include_once('controllers/search_result.php'); 
 ?>
 <!--/ Intro Single star /-->
 <section class="intro-single">
@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">Our Amazing Properties</h1>
+            <h1 class="title-single">Search Result</h1>
             <span class="color-text-a">Properties</span>
           </div>
         </div>
@@ -99,29 +99,6 @@
             <?php
             }
             ?>
-        </div>
-
-        <!-- pagination -->
-        <div class="row">
-            <div class="col-sm-12">
-                <nav class="pagination-a">
-                    <ul class="pagination justify-content-end">
-
-                        <?php
-                        // Assuming $totalPages is the total number of pages
-                        for ($i = 1; $i <= $totalPages; $i++) {
-                            $isActive = ($page == $i) ? 'active' : '';
-                        ?>
-                            <li class="page-item <?php echo $isActive; ?>">
-                                <a class="page-link" href="?page=<?php echo $i; ?>&limit=<?php echo $limit; ?>"><?php echo $i; ?></a>
-                            </li>
-                        <?php
-                        }
-                        ?>
-
-                    </ul>
-                </nav>
-            </div>
         </div>
 
     </div>

@@ -4,9 +4,6 @@ include('db/connection.php');
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['search'])) {
     // Assuming form is submitted using POST method
 
-    // echo json_encode($_POST);
-    // exit;
-
     // Get form values
     $keyword = $_POST['keyword'];
     $type = $_POST['type'];
@@ -20,11 +17,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['search'])) {
     $sql = "SELECT p.*, c.name as category, t.name as type
             FROM properties p
             LEFT JOIN categories c ON p.category_id = c.id
-            LEFT JOIN types t ON p.type_id = t.id";
+            LEFT JOIN types t ON p.type_id = t.id
+            WHERE 1";
 
     // Add conditions based on form values
     if (!empty($keyword)) {
-        $sql .= " AND (p.title LIKE '%$keyword%' OR p.description LIKE '%$keyword%')";
+        $sql .= " AND (p.name LIKE '%$keyword%' OR p.description LIKE '%$keyword%')";
     }
 
     if ($type !== 'All Type') {
@@ -54,17 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['search'])) {
 
     $result = $conn->query($sql);
 
-    $result = $conn->query($sql);
-
-    if (!$result) {
-        echo "Error: " . $conn->error;
-    } else {
-        // Rest of your code
-    }
-
-
     $properties = array();
-    
 
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
@@ -73,7 +61,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['search'])) {
     }
 }
 
+$query =  "keywork=". $keyword. "type=". $type. "city=". $city. "bedrooms=". $bedrooms. "garages=". $garages. "bathrooms=". $bathrooms. "min-price=".  $minPrice;
 
+header('location: search-result.php?q='.$query);
 
 $conn->close();
 ?>

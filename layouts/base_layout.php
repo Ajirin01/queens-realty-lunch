@@ -1,3 +1,4 @@
+<?php include_once('controllers/search_result.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
