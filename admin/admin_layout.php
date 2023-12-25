@@ -144,13 +144,22 @@
             <aside class="right-side">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>
-                        Dashboard
-                        <small>Control panel</small>
-                    </h1>
                     <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li class="active">Dashboard</li>
+                        <li>
+                            <a href="property.php">
+                                <span>Properties</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.php">
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="type.php">
+                                <span>Types</span>
+                            </a>
+                        </li>
                     </ol>
                 </section>
 
