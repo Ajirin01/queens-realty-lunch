@@ -61,7 +61,7 @@
                             <div class="card-overlay-a-content">
                                 <div class="card-header-a">
                                     <h2 class="card-title-a">
-                                        <a href="#"><?php echo $property['title']; ?></a>
+                                        <a href="property.php?id=<?= $property['id']  ?>"><?php echo $property['title']; ?></a>
                                     </h2>
                                 </div>
                                 <div class="card-body-a">

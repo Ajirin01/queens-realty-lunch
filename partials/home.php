@@ -210,7 +210,7 @@
                           <h2 class="title-a">Latest Properties</h2>
                       </div>
                       <div class="title-link">
-                          <a href="property-grid.html">All Property
+                          <a href="properties.php">All Property
                               <span class="ion-ios-arrow-forward"></span>
                           </a>
                       </div>
@@ -230,14 +230,14 @@
                               <div class="card-overlay-a-content">
                                   <div class="card-header-a">
                                       <h2 class="card-title-a">
-                                          <a href="property-single.html"><?php echo $property['title']; ?></a>
+                                          <a href="property.php?id=<?= $property['id']  ?>"><?php echo $property['title']; ?></a>
                                       </h2>
                                   </div>
                                   <div class="card-body-a">
                                       <div class="price-box d-flex">
                                           <span class="price-a"><?php echo $property['category']; ?> | &#x20A6; <?php echo $property['price']; ?></span>
                                       </div>
-                                      <a href="#" class="link-a">Click here to view
+                                      <a href="property.php?id=<?= $property['id']  ?>" class="link-a">Click here to view
                                           <span class="ion-ios-arrow-forward"></span>
                                       </a>
                                   </div>
