@@ -35,14 +35,23 @@
           <div class="sinse-box">
             <h3 class="sinse-title">Queens Realty
               <span></span>
-              <br> Sinse 2017</h3>
-            <p>Real Estate</p>
+              <br> Sinse 2019</h3>
+            <p>RC:- 3491888</p>
           </div>
         </div>
         <div class="col-md-12 section-t8">
           <div class="row">
             <div class="col-md-6 col-lg-5">
               <img src="img/about-2.jpg" alt="" class="img-fluid">
+              <p style="padding-top: 20px">
+                The Queen's Realty Management and Consultant serves both renters and homeowners. 
+                We hope to become a long-term partner with each client rather than part of a one-time transaction.
+              </p>
+
+              <p>
+                At The Queen's Realty Management and Consultant, we are committed to providing exceptional services to our clients. 
+                Whether you're buying, selling or renting a property, we have the expertise and experience to help achieve client’s real estate goals.
+              </p>
             </div>
             <div class="col-lg-2  d-none d-lg-block">
               <div class="title-vertical d-flex justify-content-start">
@@ -56,28 +65,38 @@
                   <br> Management.</h3>
               </div>
               <p class="color-text-a">
-                Founded by Ololade Olatundun, The Queens Realty Management
-                 is a premier real estate agency located in the heart of Ilorin, Kwara State, Nigeria.
-                  With a passion for excellence and a commitment to integrity, we have established ourselves
-                   as a trusted name in the real estate industry.
+              The Queen's Realty Management and consultant is a registered full-service real estate company that 
+              specializes in helping clients buy, sell, rent and lease properties in the Ilorin Area. 
+              We are committed to providing exceptional services to our clients and we pride ourselves on our expertise, 
+              professionalism and attention to detail.
+              The Queen's Realty Management is owned by Miss. Ololade Olatundun, 
+              who has more than 4 years of experience in the real estate industry and 
+              she is very passionate about helping her clients to achieve their goals.
+
               </p>
 
-              <h3>Our Story:</h3>
+              <!-- <h3>Our Story:</h3>
               <p class="color-text-a">
                 Our journey began with a vision – a vision to redefine real estate services in our community.
                  With years of experience and a deep understanding of the local market, we embarked on a mission 
                  to provide comprehensive and client-focused real estate solutions.
                   Today, we proudly stand as a testament to hard work, dedication, and 
                   a relentless pursuit of excellence.
-              </p>
+              </p> -->
 
               <h3>Our Services:</h3>
               <p class="color-text-a">
-                At The Queens Realty Management, we offer a wide range of services tailored to meet the diverse 
-                needs of our clients. Whether you're looking for real estate management, consultation, marketing
-                 services, assistance with documentation, rental options, or short-term stays,
-                  we have the expertise to assist you at every stage of your real estate journey.
+                Our services include sales and buying of houses, selling, buying, and leasing of lands, 
+                and short-let apartments. We provide clients with personalized service and expert guidance 
+                throughout the entire buying or selling process.
               </p>
+              <ol>
+                <li>
+                  <b>Sales and buying of houses:</b> We help clients find their dream homes by providing them with listings of properties that meet their specific needs, budgets and preferences. We guide clients through the entire buying process, from initial consultation to closing.
+                </li>
+                <li><b>Selling and buying of lands:</b> We also help clients buy and sell lands, whether it's for residential or commercial purposes. We provide expert guidance on zoning, land use, and other important factors that can impact the value of a property.</li>
+                <li><b>Short-let apartments:</b> We offer short-let apartments to clients who are looking for a temporary place to stay. We ensure our clients gets a top notch apartment that is fully furnished and well equipped with all the amenities that they need to feel comfortable in  and where they can also feel at home.</li>
+              </ol>
             </div>
           </div>
         </div>
