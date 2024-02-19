@@ -25,7 +25,7 @@
                 <div class="box-body">
                     <div class="form-group">
                         <label for="price">Price:</label>
-                        <input type="text" name="price" value="<?php echo $property['price']; ?>" class="form-control" required>
+                        <input type="number" name="price" value="<?php echo $property['price']; ?>" class="form-control" required>
                     </div>
                 </div><!-- /.box-body -->
 

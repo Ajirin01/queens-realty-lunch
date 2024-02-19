@@ -35,7 +35,7 @@
           <div class="sinse-box">
             <h3 class="sinse-title">Queens Realty
               <span></span>
-              <br> Sinse 2019</h3>
+              <br> Since  2019</h3>
             <p>RC:- 3491888</p>
           </div>
         </div>

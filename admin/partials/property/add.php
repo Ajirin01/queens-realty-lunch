@@ -55,7 +55,7 @@
                 <div class="box-body">
                     <div class="form-group">
                         <label for="price">Size:</label>
-                        <input type="text" name="size" class="form-control" required>
+                        <input type="number" name="size" class="form-control" required>
                     </div>
                 </div><!-- /.box-body -->
 

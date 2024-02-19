@@ -328,14 +328,14 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    I couldn't have asked for a better real estate partner than The Queens Realty Management. 
-                    They made the process of finding my dream home effortless and stress-free. Their expertise and 
-                    dedication are truly commendable.
+                  I am pleased and blessed with my experience with Ololade, She was the most experienced and kindest Realtor I've ever met in this Town. 
+                  With you, My First Property Purchase in Ilorin was Stress Free.
+                  We just closed our first deal but I can assure you more is to come. 
                   </p>
                 </div>
                 <div class="testimonial-author-box">
                   <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Albert & Erika</h5>
+                  <h5 class="testimonial-author">Dr. Ahmed Moshood</h5>
                 </div>
               </div>
             </div>
@@ -355,14 +355,42 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    As an investor, I've worked with many real estate agencies, but The Queens Realty Management stands out.
-                     Their marketing strategies are top-notch, and their attention to detail is unmatched.
-                      They helped me secure an excellent rental property.
+                  I felt so Fulfilled with The Queen's Realty Services,
+                  She went Far and Beyond with what I have ever experienced with any other Realtor. Thank you For Everything, I will definitely Recommend you to anyone I know. 
+                  The relationship as just began
                   </p>
                 </div>
                 <div class="testimonial-author-box">
                   <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                  <h5 class="testimonial-author">Pablo & Emma</h5>
+                  <h5 class="testimonial-author">Major Kareem Yusuf</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                  It was Awesome working with The Queen, She Handled absolutely everything, 
+                  we just closed on our property and it was as easy as  can be, she was always 
+                  available when needed and communicated often, she is a hard worker and Loves her Job, 
+                  we highly recommend her when in need of a Realtor.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Engr Akinwumi Fadipe</h5>
                 </div>
               </div>
             </div>
